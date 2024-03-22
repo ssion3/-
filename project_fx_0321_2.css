@@ -1,0 +1,196 @@
+.con{
+    display: flex;
+    justify-content: center;
+    padding-bottom:30px;
+}
+.btn_all{
+    float: left;
+    width: 50px;
+    height: 32px;
+    border: 1px solid gainsboro;
+    background-color: #000;
+    border-radius: 30px; /*둥글게*/
+    font-size:13px;
+    text-align: center;
+    transition: background 0.5s ease-in-out;
+    .b_all{
+        color:#fff;
+        font-weight: bold;
+        margin: 6px auto;
+        
+    }
+}
+.btn_all:hover{
+    background:#fff;
+    .b_all{color:black;}
+    cursor: pointer;
+
+}
+
+.btn_black{
+    float: left;
+    margin-left:2%;
+    width: 80px;
+    height: 32px;
+    background-color: #000;
+    border: 1px solid gainsboro;
+    border-radius: 30px; /*둥글게*/
+    font-size:13px;
+    text-align: center;
+    transition: background 0.5s ease-in-out;
+    
+    .b_black{
+        color:#fff;
+        font-weight: bold;
+        margin: 6px auto;
+        
+    }
+}
+.btn_black:hover{
+    background:#fff;
+    .b_black{color:black;}
+    cursor: pointer;
+}
+
+    
+    
+
+.btn_gray{
+    float: left;
+    margin-left:2%;
+    width: 60px;
+    height: 32px;
+    background-color: #000;
+    border: 1px solid gainsboro;
+    border-radius: 30px; /*둥글게*/
+    font-size:13px;
+    text-align: center;
+    transition: background 0.5s ease-in-out;
+
+    .b_gray{
+        color:#fff;
+        font-weight: bold;
+        margin: 6px auto;
+    }
+}
+.btn_gray:hover{
+    background:#fff;
+    .b_gray{color:black;}
+    cursor: pointer;
+}
+.btn_brown{
+    float: left;
+    margin-left:2%;
+    width: 80px;
+    height: 32px;
+    background-color: #000;
+    border: 1px solid gainsboro;
+    border-radius: 30px; /*둥글게*/
+    font-size:13px;
+    text-align: center;
+    transition: background 0.5s ease-in-out;
+    
+    .b_brown{
+        color:#fff;
+        font-weight: bold;
+        margin: 6px auto;
+    }
+}
+.btn_brown:hover{
+    background:#fff;
+    .b_brown{color:black;}
+    cursor: pointer;
+}
+.btn_blue{
+    float: left;
+    margin-left:2%;
+    width: 60px;
+    height: 32px;
+    border: 1px solid gainsboro;
+    background-color: #000;
+    border-radius: 30px; /*둥글게*/
+    font-size:13px;
+    text-align: center;
+    transition: background 0.5s ease-in-out;
+
+    .b_blue{
+        color:#fff;
+        font-weight: bold;
+        margin: 6px auto;
+    }
+}
+.btn_blue:hover{
+    background:#fff;
+    .b_blue{color:black;}
+    cursor: pointer;
+}
+.underline{
+    width: 40%;
+    background: #000;
+    height: 4px;
+    margin-bottom: 30px;
+    
+    
+}
+.title_fx{
+        font-size: 32px;
+        font-weight: bold;
+        text-align: center;
+        margin: a auto;
+    }
+
+.id1,.id2,.id3,  .id4,.id5,.id6,.id7,.id8,.id9,.id10{
+    position: relative;
+    overflow: hidden;
+    width: 600px;
+    height: 200px;
+    border-radius: 10px; /*둥글게*/
+    background-color: #fff;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    outline: 1px ridge rgba(222, 222, 222, 0.6);
+    transition: all 0.5s ease-in-out;
+    
+}
+
+.id1:hover{transform: translateY(-10px);}
+.id2:hover{transform: translateY(-10px);}
+.id3:hover{transform: translateY(-10px);}
+.id4:hover{transform: translateY(-10px);}
+.id5:hover{transform: translateY(-10px);}
+.id6:hover{transform: translateY(-10px);}
+.id7:hover{transform: translateY(-10px);}
+.id8:hover{transform: translateY(-10px);}
+.id9:hover{transform: translateY(-10px);}
+.id10:hover{transform: translateY(-10px);}
+
+.id1_img, .id2_img,.id3_img, .id4_img,.id5_img,.id6_img,.id7_img,.id8_img,.id9_img,.id10_img{
+    float: left;
+    width: 200px;
+    height:200px;
+    overflow: hidden;
+    object-fit:cover;
+    
+}
+.id1_t, .id2_t,.id3_t, .id4_t,.id5_t,.id6_t,.id7_t,.id8_t,.id9_t,.id10_t{
+    float: left;
+    font-weight: 900;
+    font-size: 25px;
+    margin: 15px;
+}
+.id1_t2,.id2_t2,.id3_t2, .id4_t2,.id5_t2,.id6_t2,.id7_t2,.id8_t2,.id9_t2,.id10_t2{
+    position: absolute;
+    top:35%;
+    transform:translate(0,-35%);
+    margin-left: 215px;
+}
+
+.idbox{
+    display: grid;
+    position:sticky;
+    justify-content: center;
+    grid-template-columns: repeat(2, 600px);
+    grid-auto-rows: 215px;
+    grid-gap: 30px;  
+    
+    
+}
